@@ -1,0 +1,13 @@
+1. components button 등, nav components 는 app 경로 밖으로 선언
+2. fetch 사용
+
+
+프론트앤드
+useQuery를 사용하여 백엔드에 요청
+
+백엔드에선 request로 받은 요청을 DB에서 가져온다.
+가져온 데이터를 프론트엔드에게 response 한다.
+
+
+//라우트 핸들러에서 로컬 3000 에러 발생 => build 시 에러 발생
+//이유. 3000포트 번호가 없어서

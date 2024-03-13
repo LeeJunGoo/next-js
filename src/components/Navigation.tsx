@@ -1,35 +1,35 @@
 import Link from "next/link";
 import React from "react";
 
-const NavLayout = () => {
+const Navigation = () => {
   return (
     <nav className="w-screen flex justify-center  gap-10 p-5">
       <Link
         className=" w-1/4 h-20 flex justify-center items-center border-solid border-1 shadow-2xl border-violet-600 border-ra rounded-lg  hover:bg-violet-600"
-        href={"/SSG"}
+        href={"/about"}
       >
-        SSG이동
+        about
       </Link>
       <Link
         className=" w-1/4 h-20 flex justify-center items-center border-solid border-1 shadow-2xl  border-violet-600 border-ra rounded-lg  hover:bg-violet-600"
-        href={"/ISR"}
+        href={"/report"}
       >
-        ISR이동
+        report
       </Link>
       <Link
         className=" w-1/4 h-20 flex justify-center items-center border-solid border-1 shadow-2xl border-violet-600 border-ra rounded-lg  hover:bg-violet-600"
-        href={"/SSR"}
+        href={"/todos-csr"}
       >
-        SSR이동
+        todos-CSR
       </Link>
       <Link
         className=" w-1/4 h-20 flex justify-center items-center border-solid border-1 shadow-2xl border-violet-600 border-ra rounded-lg  hover:bg-violet-600"
         href={"/CSR"}
       >
-        CSR이동
+        todos-SSR
       </Link>
     </nav>
   );
 };
 
-export default NavLayout;
+export default Navigation;
