@@ -1,14 +1,18 @@
-import CustomButton from "@/components/Button";
 import { Todo } from "@/interface/types";
 import React from "react";
 
 const ISRPage = async () => {
-  const response = await fetch("http://localhost:3000/api/todos", {
+  const response = await fetch(`${process.env.NEXT_SERVER_URL}/todos`, {
     next: {
       revalidate: 10,
     },
   });
-  const { todos }: { todos: Todo[] } = await response.json();
+
+  const todos: Todo[] = await response.json();
+
+  if (!todos) {
+    return new Response("todos not found", { status: 404 });
+  }
 
   const WorkingTodo = todos.filter((item) => (item.isDone ? true : false)).length;
   const DoneTodo = todos.filter((item) => (!item.isDone ? true : false)).length;

@@ -3,25 +3,28 @@
     {
       "id": "1",
       "name": "주식회사 팀스파르타",
-      "description": "우리회사에 대한 설명입니다. blablabla~~~~~~",
+      "description": "ㅇㄹㅁㄴㅁㅇㄹㄴㅁㅇㄹㄹㄴ 대한 설명입니다. blablabla~~~~~~",
       "image": "http://~~~~"
     }
   ],
   "todos": [
     {
-      "id": "0d7b",
+      "id": "91ca",
       "title": "11",
-      "content": "11"
+      "content": "111",
+      "isDone": false
     },
     {
-      "id": "872c",
-      "title": "22",
-      "content": "22"
+      "id": "919b",
+      "title": "123123",
+      "content": "123123123",
+      "isDone": false
     },
     {
-      "id": "dd37",
-      "title": "33",
-      "content": "33"
+      "id": "392c",
+      "title": "565656",
+      "content": "56565",
+      "isDone": false
     }
   ]
 }

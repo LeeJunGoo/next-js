@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Navigation = () => {
+const NavBar = () => {
   return (
     <nav className="w-screen flex justify-center  gap-10 p-5">
       <Link
@@ -24,7 +24,7 @@ const Navigation = () => {
       </Link>
       <Link
         className=" w-1/4 h-20 flex justify-center items-center border-solid border-1 shadow-2xl border-violet-600 border-ra rounded-lg  hover:bg-violet-600"
-        href={"/CSR"}
+        href={"/todos-ssr"}
       >
         todos-SSR
       </Link>
@@ -32,4 +32,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavBar;

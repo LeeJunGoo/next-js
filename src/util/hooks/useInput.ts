@@ -1,7 +1,7 @@
 "use client";
 
 import { InputTodo } from "@/interface/types";
-import React, { ChangeEvent, useState } from "react";
+import { ChangeEvent, useState } from "react";
 
 const useInput = (initialState: InputTodo) => {
   const [inputValue, setInputValue] = useState(initialState);
