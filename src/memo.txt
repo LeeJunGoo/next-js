@@ -11,3 +11,5 @@ useQuery를 사용하여 백엔드에 요청
 
 //라우트 핸들러에서 로컬 3000 에러 발생 => build 시 에러 발생
 //이유. 3000포트 번호가 없어서
+
+import //useRoute ===>  next/navigation !!! 
