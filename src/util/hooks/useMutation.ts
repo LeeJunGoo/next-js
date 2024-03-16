@@ -2,7 +2,7 @@
 
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { deleteTodo, patchTodo, postTodo } from "./useQuery";
-import { queryKey } from "../queryKey/querykey";
+import { queryKey } from "../queryKey/queryKey";
 
 // CREATE
 export const useCreate = () => {
